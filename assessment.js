@@ -54,7 +54,7 @@ function longestString(strs) {
   for (i = 0; i < strs.length; i ++) {
     if (strs[i].length > result) {
       result = strs[i].length;
-      var answer = strs[i];
+      answer = strs[i];
     }
   }
   return answer;
@@ -81,11 +81,6 @@ function longestString(strs) {
              computeUserAverageAge(users); // returns 62 (This number is rounded up from 61.6666)
 */
 
-// function computeUserAverageAge(users) {
-//     var ages = users.map(users => users.age);
-//     var sum = ages.reduce(function(acc, val) { return acc + val; });
-//     return Math.round(sum / users.length);
-// }
 
 function computeUserAverageAge(users) {
   let total = 0;
